@@ -328,7 +328,7 @@ img{
 
 .customers-list {
   display: flex;
-  color: var(--social-icon);
+  color: var(--team-social-icon);
 }
 
 .customers-item {
@@ -351,7 +351,7 @@ img{
   color: inherit;
   width: 100%;
   height: 100%;
-  border: 1px solid var(--social-icon);
+  border: 1px solid var(--team-social-icon);
   border-radius: 4px;
 }
 
@@ -488,6 +488,11 @@ img{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+.portfolio-element > .link,
+.portfolio-element img {
+  display: block;
+} 
 
 .portfolio-element:nth-child(3n) {
   margin-right: 0;
