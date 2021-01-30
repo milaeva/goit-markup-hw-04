@@ -7,6 +7,7 @@
   --background-accent-color: #2f303a;
   --team-background-color: #f5f4fa;  
   --footer-email-tel: rgba(255, 255, 255, 0.6);
+  --footer-social-link: rgba(255, 255, 255, 0.1);
   --header-border: #ececec;
   --portfolio-border: #eeeeee;
   --hero-gradient: rgba(47, 48, 58, 0.4);
@@ -418,7 +419,11 @@ img{
 }
 
 .footer .social-list {
-  color: var(--hero-title-color);
+  color: var(--title-color);
+}
+
+.footer .social-link {
+  background-color: var(--footer-social-link);
 }
 /*----------Page Portfolio.html----------*/
 .buttons {
