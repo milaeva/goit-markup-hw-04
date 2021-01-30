@@ -418,11 +418,11 @@ img{
   color: var(--title-color);
 }
 
-.footer .social-list {
+.footer-social .social-list {
   color: var(--title-color);
 }
 
-.footer .social-link {
+.footer-social .social-link {
   background-color: var(--footer-social-link);
 }
 /*----------Page Portfolio.html----------*/
